@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>tests</title>
+    <script src="/test/mocha.js"></script>
+    <link rel="stylesheet" type="text/css" href="/test/mocha.css" />
+    <script>mocha.setup('bdd')</script>
+    <script src="/build/build.js"></script>
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="/test/tests.js"></script>
+    <script>(this.mochaPhantomJS || this.mocha).run()</script>
+  </body>
+</html>

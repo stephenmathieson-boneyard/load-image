@@ -1,0 +1,13 @@
+{
+  "name": "load-image",
+  "repo": "stephenmathieson/load-image",
+  "description": "Load an image",
+  "version": "0.0.0",
+  "keywords": [ "load", "image", "preload" ],
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [ "index.js" ]
+}
