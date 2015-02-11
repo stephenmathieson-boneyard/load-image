@@ -22,4 +22,5 @@ function loadImage(src, fn) {
     img.onload = img.onerror = null, fn(this)
   };
   img.src = src;
+  return img;
 }
